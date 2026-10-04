@@ -1,0 +1,16 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Payroll data never goes into the repository
+data/
+demo-data/
+backups/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
